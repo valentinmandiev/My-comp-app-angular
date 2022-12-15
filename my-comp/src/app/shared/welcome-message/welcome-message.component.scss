@@ -1,0 +1,60 @@
+
+
+.welcome {
+    padding: 6.3em 1em;
+    border-radius: 0.3em;
+    font-size: 0.8em;
+    margin-top: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    border: 1px solid white;
+    background-image: url(https://img.freepik.com/free-vector/computer-background-design_1212-545.jpg?w=500);
+
+}
+
+.welcome h3 {
+    border-radius: 0.3em;
+    width: 100%;
+    font-size: 40px;
+    padding: 0px 50px;
+    text-align: center;
+    color: black;
+    background-color: rgba(15, 161, 98, 0.8);
+}
+
+.welcome p {
+    padding: 1em 1em; 
+    border-radius: 0.3em;
+    border-bottom: 1px solid white;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    background-color: rgba(15, 161, 98, 0.8);
+}
+
+.welcome a {
+    color: black;
+    text-decoration: none;
+    background-color: rgba(59, 161, 15, 0.8);
+    border: none;
+    border-radius: 0.8em;
+    padding: 0.5em 5.2em;
+    margin: 1em;
+}
+
+.welcome a:hover {
+    cursor: pointer;
+}
+
+.welcome ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 1em;
+}
+
+.welcome li {
+    list-style: none;
+}

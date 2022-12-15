@@ -1,0 +1,74 @@
+header {
+    background-color: rgba(15, 161, 98, 0.8);
+    background: linear-gradient(0deg, rgba(15, 161, 98, 0.8) 0%, rgba(15, 161, 98, 0.8) 35%, rgba(15, 161, 98, 0.8) 100%);
+}
+
+header ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: auto;
+    background-color: rgb(0, 255, 132);
+}
+
+header ul span { 
+    color: white;
+    padding: 0.5em;
+}
+
+.mini-navbar ul {
+    border-radius: 0.3em;
+    padding-left: 0;
+    width: 100%;
+}
+
+header li {
+    list-style: none;
+    margin: .35em;
+    padding: 0 .95em;
+    border-radius: 19px;
+    background-color: rgb(232, 101, 65);
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.logo {
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 0;
+}
+
+.logo-wrap {
+    font-family: 'Parisienne', cursive;
+    letter-spacing: .5em;
+    margin: 0.5em 0;
+}
+
+.mini-navbar-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+/* mini-navbar */
+
+.mini-navbar ul {
+    background-color: rgba(15, 161, 98);
+    border-radius: 5px;
+}
+
+.mini-navbar ul li+li {
+    border-left: 1px solid lightgrey;
+    padding-left: .5em;
+}

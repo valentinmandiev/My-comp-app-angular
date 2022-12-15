@@ -1,0 +1,88 @@
+/* new-theme */
+.new-theme-border {
+    
+    border: 5px solid black;
+    border-radius: 1em;
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-overshoot-computer-desktop-background-image_259786.jpg);
+}
+
+.new-theme-border .input {
+    margin-bottom: 1em;
+}
+
+.header-background {
+    background-color: rgb(232, 101, 65);
+    border: 1px solid rgb(232, 101, 65);
+    padding: 1.5em;
+    padding-bottom: 0;
+    margin-bottom: 1em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.header-background span {
+    background-color: #fff;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 0.3em;
+    display: flex;
+    justify-content: center;
+}
+
+.title, .new-theme-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-theme-content {
+    min-height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.new-theme-content textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0;
+}
+
+.new-theme-content label {
+    margin-bottom: 0.3em;
+}
+
+.new-theme-title input {
+    width: 55%;
+    border-radius: 0.3em;
+    padding: 0.35em;
+}
+
+button+button {
+    margin-left: 1rem;
+}
+
+.new-theme-buttons {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.new-theme-buttons button {
+    padding: 0.4em 1.5em;
+    border: 3px solid #333333;
+    border-radius: 0.3em;
+}
+
+p.error {
+    text-align: left;
+    border-radius: 0.3em;
+    color: red;
+    padding-top: 0;
+}
+
+.input-error {
+    border-left-color: red;
+}
